@@ -81,64 +81,7 @@
                 </ul>
             </div>
         </div>
-        <div class="mob-privacy-box-overlay  is-open-menu">
-           <div class="mob-privacy">
-                <button class="mob-privacy-btn" type="button"><svg class="privacy-icon-close" width="8" height="8">
-                    <use href="./images/icons.svg#icon-close">
-                    </use>
-                </svg>
-            </button>
-            <p class="mob-pryvacy-subtitle">Leave your contacts and we will call you back</p>
-            <form class="mob-pryvacy-form">
-                <div >
-        <label for="user-name" class="mob-pryvacy-label">Name</label>
-              
-                    <div class="mob-pryvacy-iconbox">
-                        <input type="text" name="user-name"
-                        class="mob-pryvacy-input" id="user-name"/>
-                        <svg class="mob-pryvacy-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-person-black"></use>
-                        </svg>
-                    </div>
-               </div>
-               <div class="mob-pryvacy-input-box">
-        <label for="user-phone" class="mob-pryvacy-label">Phone</label>
-               <div class="mob-pryvacy-iconbox">
-                    <input type="tel" name="user-phone"
-                        class="mob-pryvacy-input" id="user-phone"/>
-                        <svg class="mob-pryvacy-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-phone"></use>
-                        </svg>
-               </div>
-                </div>
-                <div class="mob-pryvacy-input-box">
-        <label for="user-email" class="mob-pryvacy-label">Email</label>
-               
-                   <div class="mob-pryvacy-iconbox">
-                        <input type="email" name="user-email"
-                        class="mob-pryvacy-input" id="user-email"/>
-                        <svg class="mob-pryvacy-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-email"></use>
-                        </svg>
-                   </div>
-                </div>
-                   <div class="mob-pryvacy-textarea">
-                    <label for="user-comment" class="mob-pryvacy-label">Comment</label>
-                    <textarea class="mob-pryvacy-comments" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
-                   </div>
-                   <div class="mob-pryvacy-checkbox-box">
-                    
-                    <input type="checkbox" class="mob-pryvacy-checkbox visually-hidden" name="user-privacy" required id="user-privacy" value="true"/>
-                    <label class="mob-pryvacy-text" for="user-privacy"><span class="mob-pryvacy-span">
-                        <svg class="mob-pryvacy-checkbox-icon" width="10" height="8">
-                        <use href="./images/icons.svg#icon-Vector" ></use>
-                    </svg>
-                </span>I accept the terms and conditions of the <a href="" class="mob-pryvacy">Privacy Policy</a></label>
-                   </div>
-                <button class="mob-pryvacy-btn-send" type="submit">Send</button>
-            </form>
-           </div>
-    </div>
+        
      
     </header>
     <main>
@@ -535,6 +478,142 @@
     
 </div>
     </footer>
+                        <!-- mob modal -->
+
+    <div class="mob-privacy-box-overlay">
+        <div class="mob-privacy">
+             <button class="mob-privacy-btn" type="button"><svg class="privacy-icon-close" width="8" height="8">
+                 <use href="./images/icons.svg#icon-close">
+                 </use>
+             </svg>
+         </button>
+         <p class="mob-pryvacy-subtitle">Leave your contacts and we will call you back</p>
+         <form class="mob-pryvacy-form">
+             <div class="mob-pryvacy-input-box" >
+     <label for="user-name" class="mob-pryvacy-label">Name</label>
+           
+                 <div class="mob-pryvacy-iconbox">
+                     <input type="text" name="user-name"
+                     class="mob-pryvacy-input" id="user-name"/>
+                     <svg class="mob-pryvacy-icon" width="18" height="24">
+                         <use href="./images/icons.svg#icon-person-black"></use>
+                     </svg>
+                 </div>
+            </div>
+            <div class="mob-pryvacy-input-box">
+     <label for="user-phone" class="mob-pryvacy-label">Phone</label>
+            <div class="mob-pryvacy-iconbox">
+                 <input type="tel" name="user-phone"
+                     class="mob-pryvacy-input" id="user-phone"/>
+                     <svg class="mob-pryvacy-icon" width="18" height="24">
+                         <use href="./images/icons.svg#icon-phone"></use>
+                     </svg>
+            </div>
+             </div>
+             <div class="mob-pryvacy-input-box">
+     <label for="user-email" class="mob-pryvacy-label">Email</label>
+            
+                <div class="mob-pryvacy-iconbox">
+                     <input type="email" name="user-email"
+                     class="mob-pryvacy-input" id="user-email"/>
+                     <svg class="mob-pryvacy-icon" width="18" height="24">
+                         <use href="./images/icons.svg#icon-email"></use>
+                     </svg>
+                </div>
+             </div>
+                <div class="mob-pryvacy-textarea">
+                 <label for="user-comment" class="mob-pryvacy-label">Comment</label>
+                 <textarea class="mob-pryvacy-comments" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+                </div>
+                <div class="mob-pryvacy-checkbox-box">
+                 
+                 <input type="checkbox" class="mob-pryvacy-checkbox visually-hidden" name="user-privacy" required id="user-privacy" value="true"/>
+                 <label class="mob-pryvacy-text" for="user-privacy">
+                     <span class="mob-pryvacy-span">
+                     <svg class="mob-pryvacy-checkbox-icon" width="10" height="8">
+                     <use href="./images/icons.svg#icon-Vector" ></use>
+                 </svg>
+             </span>
+             <div>
+                 I accept the terms and conditions of the
+                     <a href="" class="mob-pryvacy">Privacy Policy</a>
+             </div>
+             </label>
+                </div>
+             <button class="mob-pryvacy-btn-send" type="submit">Send</button>
+         </form>
+        </div>
+ </div>
+
+                      <!-- tab modal -->
+
+ <div class="tab-box-overlay  is-open-menu">
+    <div class="tab-modal">
+         <button class="tab-btn" type="button"><svg class="tab-icon-close" width="8" height="8">
+             <use href="./images/icons.svg#icon-close">
+             </use>
+         </svg>
+     </button>
+     <p class="tab-subtitle">Leave your contacts and we will call you back</p>
+     <form class="tab-form">
+         <div class="tab-input-box" >
+ <label for="user-name" class="tab-label">Name</label>
+       
+             <div class="tab-iconbox">
+                 <input type="text" name="user-name"
+                 class="tab-input" id="user-name"/>
+                 <svg class="tab-icon" width="18" height="24">
+                     <use href="./images/icons.svg#icon-person-black"></use>
+                 </svg>
+             </div>
+        </div>
+        <div class="tab-input-box">
+ <label for="user-phone" class="tab-label">Phone</label>
+        <div class="tab-iconbox">
+             <input type="tel" name="user-phone"
+                 class="tab-input" id="user-phone"/>
+                 <svg class="tab-icon" width="18" height="24">
+                     <use href="./images/icons.svg#icon-phone"></use>
+                 </svg>
+        </div>
+         </div>
+         <div class="tab-input-box">
+ <label for="user-email" class="tab-label">Email</label>
+        
+            <div class="tab-iconbox">
+                 <input type="email" name="user-email"
+                 class="tab-input" id="user-email"/>
+                 <svg class="tab-icon" width="18" height="24">
+                     <use href="./images/icons.svg#icon-email"></use>
+                 </svg>
+            </div>
+         </div>
+            <div class="tab-textarea">
+             <label for="user-comment" class="tab-label">Comment</label>
+             <textarea class="tab-comments" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+            </div>
+            <div class="tab-checkbox-box">
+             
+             <input type="checkbox" class="tab-checkbox visually-hidden" name="user-privacy" required id="user-privacy" value="true"/>
+             <label class="tab-text" for="user-privacy">
+                 <span class="tab-span">
+                 <svg class="tab-checkbox-icon" width="10" height="8">
+                 <use href="./images/icons.svg#icon-Vector" ></use>
+             </svg>
+         </span>
+         <div>
+             I accept the terms and conditions of the
+                 <a href="" class="tab-pryvacy">Privacy Policy</a>
+         </div>
+         </label>
+            </div>
+         <button class="tabmob-pryvacy-btn-send" type="submit">Send</button>
+     </form>
+    </div>
+</div>
+
+<!-- decktop modal -->
+
 <div class="backdrop">
   <div class="modal"><button class="modal-button" type="button">
     <svg class="modal-close" width="8" height="8">
